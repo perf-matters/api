@@ -31,7 +31,11 @@ router
         res.promise(publishers.publishRequestFromApi(message));
     })
     .put('/harTest', function (req, res) {
-        console.log(req.body);
+        if (req.body.request.timing) {
+            res.status(201).send();
+        } else {
+            res.status(400).send();
+        }
     });
 
 module.exports = router;
