@@ -29,13 +29,6 @@ router
         var message = publishers.getMessageFromRequest(req);
 
         res.promise(publishers.publishRequestFromApi(message));
-    })
-    .put('/harTest', function (req, res) {
-        if (req.body.request.timing) {
-            res.status(201).send();
-        } else {
-            res.status(400).send();
-        }
     });
 
 module.exports = router;

@@ -15,4 +15,4 @@ app.use(morgan(
 
 app.use('/metrics', require('./routes/metrics'));
 
-var server = app.listen(3000);
+app.listen(3000);
