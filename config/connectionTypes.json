@@ -1,0 +1,17 @@
+{
+    "3G": {
+        "downstreamKbps": 4000,
+        "upstreamKbps": 1000,
+        "latency": 100
+    },
+    "4G": {
+        "downstreamKbps": 30000,
+        "upstreamKbps": 20000,
+        "latency": 20
+    },
+    "cable": {
+        "downstreamKbps": 20000,
+        "upstreamKbps": 2000,
+        "latency": 2
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "perf-matters",
+  "version": "1.0.0",
+  "description": "Automatic website performance metrics",
+  "main": "index.js",
+  "scripts": {
+    "api": "pm2 start processes.json"
+  },
+  "author": "Jakub Żmudziński",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.3.2",
+    "body-parser": "^1.12.2",
+    "browsermob-proxy-api": "^0.1.4",
+    "compression": "^1.4.3",
+    "express": "^4.12.3",
+    "morgan": "^1.5.2",
+    "q": "^1.2.0",
+    "webdriver-manager": "^3.0.0",
+    "webdriverio": "^2.4.5"
+  },
+  "devDependencies": {
+    "longjohn": "^0.2.4"
+  }
+}
