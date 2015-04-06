@@ -1,6 +1,6 @@
 # Perf-matters API
 
-Website performance metrics done with [webdriverio](https://github.com/webdriverio/webdriverio), [webdriver-manager](https://github.com/pose/webdriver-manager) and [browsermob-proxy](https://github.com/lightbody/browsermob-proxy)
+Website performance metrics REST API
 
 ## Instalation
 
